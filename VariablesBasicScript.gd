@@ -21,6 +21,9 @@ var onlyBooleans: bool = true # cast a boolean
 # In this case only strings can be assigned to this variable after its initialized
 var inferredOnInitialization := "Hola!" 
 
+# Casting: Coerce one data type into another
+var changeToInt: int = "5" as int
+
 # We use this inside the _ready function 
 # Declare a variable with explicit type Node2D
 var my_node2D: Node2D
